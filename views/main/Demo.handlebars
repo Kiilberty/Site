@@ -1,0 +1,93 @@
+
+
+<div class="BoxForm" >
+{{>Menu}}
+</div>
+<div class="ui grid" style="height: 90%;">
+  <div class="nine wide column"></div>
+   <div class="six wide column Formulario " >
+    <form class="ui form" style="margin-top: 2%;" method="post" action="/CriaDemo" >
+      <div class="two fields">
+        <div class = "field">
+        <label>Primeiro Nome : </label>
+        <input type="text" name ="PrimeiroNome" placeholder="Digite seu Nome"  ></input>
+        </div> 
+        <div class = "field">
+        <label>Sobrenome : </label>
+        <input type="text" name ="Sobrenome" placeholder=" Digite seu Sobrenome"  ></input>
+        </div> 
+      </div>
+      <div class="field" >
+      <label>Telefone :</label>
+      <input type="number" name = "Telefone"  placeholder=" Digite seu Telefone(Whatsapp)" ></input>
+      </div>
+       <div class="field" >
+      <label>Email :</label>
+      <input type="email" name="Email"  placeholder="Digite o seu e-mail" ></input>
+      </div>
+      
+      <div class=" two fields">
+            <div class="field">   
+             <label> Atividade:</label>
+                 
+             <select class="ui selection dropdown" name = "Atividade" id="SelecionaAtividade" >
+                <option value="Pessoa Fisica" >Pessoa Física</option>
+                <option value="Pessoa Juridica" >Pessoa Jurídica</option>
+                <option value="Produtor Rural" >Produtor Rural</option>
+                <option value="Transportadora" >Transportadora</option>
+             </select>
+            
+               <script>
+                  $('#SelecionaAtividade').dropdown()
+                 
+          
+                </script>
+            </div>
+               
+    
+           <div class="field" >
+             <label>CPF/CNPJ/CAEPF :</label>
+             <input type="number" name="Cgc" placeholder="" ></input>
+            </div>
+    
+        </div>
+
+      <div class="field" >
+        <label>Mensagem : </label>
+       <textarea name="Mensagem"  cols="30" rows="7"></textarea>
+      </div>
+      <div class=" ui grid"> 
+            
+            <div class="six wide column" >
+
+            </div>
+            
+            
+            <div class="two wide column">
+                <div class="field" >
+                 <button class="ui primary button" type="submit" >Enviar</button>
+                </div>
+           </div> 
+
+      </div>
+
+
+
+      </div>    
+
+
+      </div>
+
+
+
+
+      </div>
+
+    </form>
+
+
+   </div>
+
+ 
+</div>
+

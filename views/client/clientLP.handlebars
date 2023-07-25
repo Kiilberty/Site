@@ -1,0 +1,37 @@
+{{>Menu}}
+<div class = "ui grid" >
+ <div class = " eight wide column left attached column" style="background-color: black;" >
+ <section class="demo-form">
+    <form action="/CriaDemo" method="post">
+       <div class="input-group">
+            <div class="input-box">
+                <label for="name">Nome:</label>
+                <input id="name" type="text" name="name" placeholder="Informe seu Nome" required>
+            </div>
+            <div class="input-box">
+                <label for="contact">Numero para contato:</label>
+                <input id="contact" type="text" name="contact" placeholder="Informe sua Contato" required>
+            </div>
+            <div class="input-box">
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <label for="email">Atividade:</label>
+                <select name="business">
+                    <option value="Produtor Rural">Produtor Rural</option>
+                    <option value="Pessoa Juridica">Pessoa Juridica</option>
+                    <option value="Transportadora">Transportadora</option>
+                </select>
+            </div>
+            <div class="msg-input">
+                <textarea name="mensagem"  cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="login-button">
+            <button type="submit" >Enviar</button>
+        </div>
+    </form>
+ </section>
+ </div>
+</div>

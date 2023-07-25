@@ -1,0 +1,27 @@
+.BoxForm{
+    width: 100%;
+    height: 10%;
+}
+
+.Pagina{
+    width: 100%;
+    height: 90%;
+}
+
+.Formulario{
+    margin-top: 1%;
+    height: 100%;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
